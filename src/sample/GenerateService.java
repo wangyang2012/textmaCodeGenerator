@@ -37,6 +37,7 @@ public class GenerateService {
                 firstColumn = !firstColumn;
             }
         }
+        sb.append("    }\n");
         sb.append("return sort;\n");
         sb.append("}");
         return sb.toString();
